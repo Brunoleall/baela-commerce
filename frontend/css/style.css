@@ -1,0 +1,80 @@
+
+/*================= HEADER ===============*/
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*========================================*/
+/*============== NAVIGATION ==============*/
+.navigation ul {
+    font-family: var(--font-title);
+    font-size: 22px;
+    display: flex;
+    gap: 24px;
+}
+/*========================================*/
+/*================= LOGO =================*/
+.logo {
+    font-family: var(--font-logo);
+    font-size: var(--font-size-logo);
+    color: red;
+}   
+/*========================================*/
+/*=============== SEARCH =================*/
+.search-container {
+    height: 40px;
+    width: 400px;
+    display: flex;
+    padding: 0 16px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 20px;
+    gap: 5px;
+    
+    border: 2px solid red;
+}
+.search-container input {
+    border: none;
+    font-family: var(--font-primary);
+    font-size: 15px;
+    flex-grow: 1;
+   
+}
+.search-container button {
+    border: none;
+    order: -1;
+}
+/*========================================*/
+/*=============== ACTIONS =================*/
+.actions-container {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    padding: 0 10px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 20px;
+}
+.actions-container a {
+    font-size: 22px;
+}
+.actions-container button {
+    border: none; 
+    font-size: 22px;
+}
+/*========================================*/
+/*========================================*/
+

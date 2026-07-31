@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!----------------------------------------------->
+    <!------------------- Meta ---------------------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baela Commerce</title>
-    <
+
+    <!----------------------------------------------->
+    <!------------------- Fonts --------------------->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz@0,14..32;1,14..32&family=Irish+Grover&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!----------------------------------------------->
+    <!------------------- Icons --------------------->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
-    <header>
+    <!----------------------------------------------->
+    <!--------------- HEADER + CONTAINER ------------>
+    <header class="header">
+
         <div class="container">
+            <!----------------------------------------------->
+            <!------------------- LOGO ---------------------->
             <a class="logo" href="">BAELA</a>
+            <!----------------------------------------------->
+            <!------------------ NAVIGATION ----------------->
             <nav class="navigation">
                 <ul>
                     <li><a href="">WOMEN</a></li>
@@ -17,19 +39,37 @@
                     <li><a href="">KIDS</a></li>
                 </ul>
             </nav>
+            <!----------------------------------------------->
+            <!------------------- SEARCH -------------------->
             <form class="search">
-                <input type="text">
-                <button>Pesquisar</button>
+                <div class="search-container">
+                    <input type="text"
+                        placeholder="Buscar...">
+                    <button>
+                        <i data-lucide="search"></i>
+                    </button>
+                </div>
             </form>
-
+            <!----------------------------------------------->
+            <!------------------- ACTIONS ------------------->
             <div class="actions">
-                <a href="/favoritos">Favoritos</a>
-                <a href="/login">Login</a>
-                <a href="/carrinho">Carrinho</a>
-                <button>menu</button>
+                <div class="actions-container">
+                    <a href="/favoritos">♡</a>
+                    <a href="/login">👤</a>
+                    <a href="/carrinho">🛒</a>
+                    <button>=</button>
+                </div>
             </div>
+            <!----------------------------------------------->
+            <!----------------------------------------------->
         </div>
     </header>
+    <!----------------------------------------------->
+    <!------------------- ICONS --------------------->
+    <script>
+    lucide.createIcons();
+    </script>
     
 </body>
+
 </html>

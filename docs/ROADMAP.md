@@ -1,20 +1,101 @@
-# Roadmap - Projeto Baela Commerce
+# 🛍️ Roadmap - Baela Commerce
 
-## Sprint 1 - Fundação
+---
+# Status:
+- ✅ - Concluído
+- 🚧 - Em Desenvolvimento
+- ⏳ - Planejado
+---
 
-- [x] Definição do nome da marca
+
+# ✅ Sprint 1 - Fundação
+
+- [x] Definição da marca
 - [x] Criação da estrutura do projeto
-- [x] Criação do repositório no GitHub
-- [ ] Configuração do Git
-- [ ] Primeiro commit
-- [ ] Primeiro push
+- [x] Configuração do repositório GitHub
+- [x] Configuração inicial do Git
+- [x] Primeiro Commit
+- [x] Primeiro Push
 
-## Próximas etapas
+---
 
-- Identidade visual
-- Wireframe da Home
-- Desenvolvimento em HTML
-- Estilização com CSS
-- Interatividade com JavaScript
-- Migração para React
-- Desenvolvimento do Back-end
+# ✅ Sprint 2 - Header
+concluido
+- [x] Logo
+- [x] Menu de navegação
+- [x] Barra de pesquisa
+- [x] Área de ações
+- [x] Organização inicial do CSS
+- [x] Variáveis CSS
+- [x] Tipografia
+
+---
+
+# 🚧 Sprint 3 - Hero Banner
+
+- [ ] Wireframe
+- [ ] Estrutura HTML
+- [ ] Estilização CSS
+- [ ] Responsividade
+
+---
+
+# ⏳ Sprint 4 - Categorias
+
+- [ ] Cards das categorias
+- [ ] Ícones
+- [ ] Hover
+- [ ] Responsividade
+
+---
+
+# ⏳ Sprint 5 - Produtos em Destaque
+
+- [ ] Card do produto
+- [ ] Imagem
+- [ ] Nome
+- [ ] Preço
+- [ ] Botão Comprar
+
+---
+
+# ⏳ Sprint 6 - Footer
+
+- [ ] Links
+- [ ] Redes sociais
+- [ ] Newsletter
+
+---
+
+# ⏳ Sprint 7 - Responsividade
+
+- [ ] Tablet
+- [ ] Mobile
+- [ ] Menu Mobile
+
+---
+
+# ⏳ Sprint 8 - JavaScript
+
+- [ ] Busca
+- [ ] Menu Mobile
+- [ ] Slider
+- [ ] Carrinho
+
+---
+
+# ⏳ Sprint 9 - React
+
+- [ ] Componentização
+- [ ] Rotas
+- [ ] Estados
+- [ ] Consumo de API
+
+---
+
+# ⏳ Sprint 10 - Back-end
+
+- [ ] Spring Boot
+- [ ] API REST
+- [ ] Banco de Dados
+- [ ] Autenticação
