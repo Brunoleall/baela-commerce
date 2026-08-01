@@ -78,7 +78,7 @@ frontend/
 
 - [x] Estrutura inicial
 - [x] Header
-- [ ] Hero Banner
+- [x] Hero Banner
 - [ ] Categorias
 - [ ] Produtos em destaque
 - [ ] Responsividade
